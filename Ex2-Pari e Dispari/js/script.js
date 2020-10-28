@@ -39,9 +39,16 @@ console.log('numero sommato', somma);
 
 if (isPari(num1, num2)) {
   console.log('il numero è pari');
+  var parDisp = ('pari');
 } else {
   console.log('il numero è dispari');
+  var parDisp = ('dispari');
 }
 
 // Dichiariamo chi ha vinto
-// if ( === )
+
+if (pariDispari === parDisp) {
+  console.log('utente ha vinto!');
+} else {
+  console.log('computer ha vinto!');
+}
